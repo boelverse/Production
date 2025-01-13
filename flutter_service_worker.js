@@ -4,7 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"flutter.js": "f393d3c16b631f36852323de8e583132",
-"main.dart.js": "31acb1421f071e6f4c1ae47e686fac99",
+"main.dart.js": "8807e432866770d4a59c69be18ae685d",
 "splash/img/light-3x.png": "8252990d7229d3965b2ab0ae85bc4f02",
 "splash/img/light-1x.png": "af5ab671d6f3d0df916fc34d9d7a8bef",
 "splash/img/light-2x.png": "c209435123ef6245a6c5f72b57ad755a",
@@ -20,7 +20,7 @@ const RESOURCES = {"flutter.js": "f393d3c16b631f36852323de8e583132",
 "assets/assets/splash_logo_dark.png": "446f36f614d86084d41038227385b2c3",
 "assets/assets/RedBullGamingHub_Logo.png": "b9a3b6c48006c51f8799c3a7d8785aab",
 "assets/assets/splash_logo.png": "446f36f614d86084d41038227385b2c3",
-"assets/NOTICES": "6441bcdd2aa5c3905bcd46a7e2f24ddf",
+"assets/NOTICES": "7d63b2bc55d1927cfb9cb27940113a85",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/AssetManifest.json": "ee964454f93953e504718cc3f40620eb",
 "assets/AssetManifest.bin.json": "99cced066860b43769202715f1272bef",
@@ -46,8 +46,8 @@ const RESOURCES = {"flutter.js": "f393d3c16b631f36852323de8e583132",
 "icons/Icon-72.png": "b01f313c0225573dc40498e4ec262d8b",
 "icons/Icon-96.png": "7b678632e098a409e3ef73cc0fb2b04e",
 "favicon.png": "7f75a2244b29632fd384b215579c878a",
-"version.json": "9c405e1ae46a46499a1f8ab983832970",
-"flutter_bootstrap.js": "091f34e36ae0b48688ca320e1d5107c1"};
+"version.json": "5665d871127352dd61e8c962f4f62db3",
+"flutter_bootstrap.js": "c348a4c04b9234b961788c909ceecb5d"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
