@@ -11,7 +11,7 @@ const RESOURCES = {"firebase-messaging-sw.js": "d11bd10961c5a6fffe968d8533fd90c1
 "icons/Icon-maskable-192.png": "da3a393e1c3c8ace9202e53822af578d",
 "icons/Icon-192.png": "da3a393e1c3c8ace9202e53822af578d",
 "icons/Icon-72.png": "b01f313c0225573dc40498e4ec262d8b",
-"flutter_bootstrap.js": "708c612957bf0766d71323184cbb3703",
+"flutter_bootstrap.js": "b8db4ddec1d69d20efd81ba9ac5d3294",
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "canvaskit/skwasm.wasm": "9f0c0c02b82a910d12ce0543ec130e60",
 "canvaskit/chromium/canvaskit.wasm": "b1ac05b29c127d86df4bcfbf50dd902a",
