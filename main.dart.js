@@ -97580,12 +97580,13 @@ q.toString
 q=r-q>0.5
 r=q}else r=!0
 if(r){if(p.w>0)p.a0(new A.azB(p))}else p.x.nv(p.w,B.cP,B.aI).bT(new A.azC(p),t.y)}},
-I(a){var s=this,r=null,q=s.gbL().dX($.oh(),t.Is),p=A.M(a),o=p.fr,n=p.ax.a===B.a9?B.dz:B.bA,m=p.dy,l=A.bC(50),k=A.bC(50),j=s.w,i=A.b([A.Qi(r,r,r,r,r,r,r,r,r,8,r,r,B.HM,r,r,r,r,r,r,r,r,r,r,B.dL,"Home",r,r,r),A.Qi(r,r,r,r,r,r,r,r,r,8,r,r,B.ou,r,r,r,r,r,r,r,r,r,r,B.dL,"Assignments",r,r,r),A.Qi(r,r,r,r,r,r,r,r,r,8,r,r,B.k6,r,r,r,r,r,r,r,r,r,r,B.dL,"Calendar",r,r,r)],t.Kh),h=q.a,g=h!=="Ser"
-if(!g||h==="Cosmic")i.push(A.Qi(r,r,r,r,r,r,r,r,r,8,r,r,B.oz,r,r,r,r,r,r,r,r,r,r,B.dL,"Test",r,r,r))
+I(a){var s=this,r=null,q=s.gbL().dX($.oh(),t.Is),p=A.M(a),o=p.fr,n=p.ax.a===B.a9?B.dz:B.bA,m=p.dy,l=A.bC(50),k=A.bC(50),j=s.w,i=A.b([A.Qi(r,r,r,r,r,r,r,r,r,8,r,r,B.HM,r,r,r,r,r,r,r,r,r,r,B.dL,"Home",r,r,r),A.Qi(r,r,r,r,r,r,r,r,r,8,r,r,B.ou,r,r,r,r,r,r,r,r,r,r,B.dL,"Assignments",r,r,r),A.Qi(r,r,r,r,r,r,r,r,r,8,r,r,B.k6,r,r,r,r,r,r,r,r,r,r,B.dL,"Calendar",r,r,r)],t.Kh)
+if(q.w===5)i.push(A.Qi(r,r,r,r,r,r,r,r,r,8,r,r,B.oz,r,r,r,r,r,r,r,r,r,r,B.dL,"Test",r,r,r))
 l=A.fa(r,new A.aO(B.GT,A.dH(B.y,!0,l,new A.aO(B.ba,new A.OD(k,new A.D2(i,j,new A.azF(s),m,o,n,m,B.GY,r),r),r),B.m,o,8,r,r,r,r,r,B.aw),r),B.H,!1,r,r,r,r,s.gakJ(),r,s.gakL(),r,r,r,r,r,r,r,r,r,r,r,r,r)
 k=t.p
 j=A.b([new A.D9(r),new A.AZ(r),new A.Br(r)],k)
-if(!g||h==="Cosmic")B.b.L(j,A.b([new A.GZ(r)],k))
+i=q.a
+if(i==="Ser"||i==="Cosmic")B.b.L(j,A.b([new A.GZ(r)],k))
 return A.iG(r,r,A.aLO(j,B.F,s.x,B.H,new A.azG(s),B.vo),l,r)}}
 A.azA.prototype={
 $0(){var s=this.a
@@ -97882,7 +97883,7 @@ if(o==null)o=B.i
 a=s.Q
 n=a==null?d:a.b
 if(n==null)n=B.j
-a=A.cV(A.aLq("assets/RedBullGamingHub_Logo.png",120),d,d)
+a=A.cV(A.aLq("assets/splash_logo.png",120),d,d)
 a0=A.cV(A.aq("Login",d,d,d,d,A.av(d,d,o,d,d,d,d,d,d,d,d,36,d,d,B.M,d,d,!0,d,d,d,d,d,d,d,d),d,d),d,d)
 s=A.bC(12)
 r=c.k1.a
