@@ -96524,9 +96524,9 @@ h=r.h(0,"eventType")
 if(h==null)h="No Event"
 n=A.dX("d/M/yyyy",null).dz(A.w7(q.gpU()))
 m=r.h(0,"location")
-if(m==null)m="No Location"
+if(m==null)m="RBGH - Gebouw F"
 l=r.h(0,"additionalInfo")
-if(l==null)l="No Additional Info"
+if(l==null)l="Permanentie"
 k=o?"Completed":"Not Completed"
 j=r.h(0,"estimateVisitors")
 if(j==null)j="No visitors"
