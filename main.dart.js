@@ -96652,9 +96652,9 @@ g=r.h(0,"eventType")
 if(g==null)g="No Event"
 m=A.dX("d/M/yyyy",h).dz(A.w7(q.gpU()))
 l=r.h(0,"location")
-if(l==null)l="No Location"
+if(l==null)l="RBGH - Gebouw F"
 k=r.h(0,"additionalInfo")
-if(k==null)k="No Additional Info"
+if(k==null)k="Permanentie"
 j=this.a.gc1()
 i=n==null?h:J.el(n,t.N)
 return A.aPn(k,m,!0,i==null?A.b([s.go1()],t.s):i,h,"",l,j,h,p,g)},
