@@ -32023,7 +32023,7 @@ return b+3},
 b8z(){return B.ID},
 a9l(a){var s=0,r=A.t(t.Wd),q,p,o
 var $async$a9l=A.o(function(b,c){if(b===1)return A.p(c,r)
-while(true)switch(s){case 0:p=A.cY("http://localhost:8081/api/upload-data")
+while(true)switch(s){case 0:p=A.cY("https://api.belguard.me:8080/api/upload-data")
 o=t.N
 o=A.L(["Content-Type","application/json"],o,o)
 s=3
@@ -32037,7 +32037,7 @@ a9k(a,b,c,d,e,f,g){return A.b7a(a,b,c,d,e,f,g)},
 b7a(a,b,c,d,e,f,g){var s=0,r=A.t(t.H),q=1,p,o,n,m,l,k
 var $async$a9k=A.o(function(h,i){if(h===1){p=i
 s=q}while(true)switch(s){case 0:q=3
-n=A.cY("http://localhost:8081/api/upload-calendar-data")
+n=A.cY("https://api.belguard.me:8080/api/upload-calendar-data")
 m=t.N
 m=A.L(["Content-Type","application/json"],m,m)
 s=6
