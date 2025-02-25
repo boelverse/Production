@@ -31909,11 +31909,11 @@ b=o}s=b+2
 if(p===s)return s
 if(a.charCodeAt(s)!==47)return q
 return b+3},
-oj(a,b,c,d,e){return A.bcs(a,b,c,d,e)},
-bcs(a,a0,a1,a2,a3){var s=0,r=A.u(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b
-var $async$oj=A.o(function(a4,a5){if(a4===1){p=a5
+oj(a,b,c,d,e,f){return A.bcs(a,b,c,d,e,f)},
+bcs(a,a0,a1,a2,a3,a4){var s=0,r=A.u(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b
+var $async$oj=A.o(function(a5,a6){if(a5===1){p=a6
 s=q}while(true)switch(s){case 0:q=3
-o=A.b([a3,a2,a1,B.e.k(a)],t.s)
+o=A.b([a4,a2,a1,a3,B.e.k(a)],t.s)
 s=6
 return A.l(A.a97(o),$async$oj)
 case 6:q=1
@@ -31925,17 +31925,17 @@ n=A.cG("yyyy",null).co(new A.aG(Date.now(),0,!1))
 m=A.Er(u._)
 s=7
 return A.l(m.l4(u.j),$async$oj)
-case 7:e=a5
+case 7:e=a6
 l=e
 k=l.uF("RBGH-Calendar-"+A.j(n))
 s=k==null?8:9
 break
 case 8:s=10
 return A.l(l.nO("RBGH-Calendar-"+A.j(n)),$async$oj)
-case 10:k=a5
+case 10:k=a6
 case 9:s=11
 return A.l(J.P8(k).pI(1,1),$async$oj)
-case 11:j=a5
+case 11:j=a6
 i=0
 case 12:if(!(i<J.bP(j))){s=14
 break}s=J.d(J.ak(j,i),a1)?15:16
@@ -31944,7 +31944,7 @@ case 15:d=k
 c=d.y
 s=17
 return A.l((c===$?d.y=new A.r1(d):c).pI(1,1),$async$oj)
-case 17:h=a5
+case 17:h=a6
 g=0
 case 18:if(!(g<J.bP(h))){s=20
 break}s=J.d(J.ak(h,g),a1)?21:22
@@ -99631,7 +99631,7 @@ return A.l(h.a.b5(0,i),$async$t3)
 case 6:i=n.c
 i.toString
 s=7
-return A.l(A.oj(15,n.e,i,l,e),$async$t3)
+return A.l(A.oj(15,n.e,i,l,"Checked in",e),$async$t3)
 case 7:i=$.a9
 j=(i==null?$.a9=$.bc():i).aZ("[DEFAULT]")
 A.aA(j,f,!0)
@@ -101296,7 +101296,7 @@ case 6:g=n.a
 h=g.e
 h.toString
 s=7
-return A.l(A.oj(16,g.f,h,l,m),$async$t4)
+return A.l(A.oj(16,g.f,h,l,"Checked out",m),$async$t4)
 case 7:h=$.a9
 i=(h==null?$.a9=$.bc():h).aZ("[DEFAULT]")
 A.aA(i,j,!0)
