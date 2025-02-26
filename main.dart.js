@@ -32017,16 +32017,16 @@ s=1
 break
 case 1:return A.r(q,r)}})
 return A.t($async$a98,r)},
-a96(a,b,c,d,e,f,g){return A.b6y(a,b,c,d,e,f,g)},
-b6y(a,b,c,d,e,f,g){var s=0,r=A.u(t.H),q=1,p,o,n,m,l,k
-var $async$a96=A.o(function(h,i){if(h===1){p=i
+a96(a,b,c,d,e,f,g,h){return A.b6y(a,b,c,d,e,f,g,h)},
+b6y(a,b,c,d,e,f,g,h){var s=0,r=A.u(t.H),q=1,p,o,n,m,l,k
+var $async$a96=A.o(function(i,j){if(i===1){p=j
 s=q}while(true)switch(s){case 0:q=3
 n=A.cQ("https://api.boelguard.me/api/upload-calendar-data")
 m=t.N
 m=A.L(["Content-Type","application/json"],m,m)
 s=6
-return A.l(A.we(n,B.a_.jI(A.b([a,b,c,d,e,f,g],t.jl),null),m),$async$a96)
-case 6:o=i
+return A.l(A.we(n,B.a_.jI(A.b([a,b,c,d,e,f,g,h],t.jl),null),m),$async$a96)
+case 6:o=j
 if(o.b!==200){n=A.dq("Failed to upload calendar data")
 throw A.c(n)}q=1
 s=5
@@ -100591,19 +100591,19 @@ else return!1
 return A.at(s)===A.at(b)&&A.au(s)===A.au(b)&&A.bt(s)===A.bt(b)},
 a4a(a){this.scE(0,this.f.auY(a))
 this.Nq(a)},
-zg(a,b,c,d,e,f,g){return this.aDH(a,b,c,d,e,f,g)},
-aDH(a,b,c,d,e,f,g){var s=0,r=A.u(t.H),q=1,p,o=this,n,m
-var $async$zg=A.o(function(h,i){if(h===1){p=i
+zg(a,b,c,d,e,f,g,h){return this.aDH(a,b,c,d,e,f,g,h)},
+aDH(a,b,c,d,e,f,g,h){var s=0,r=A.u(t.H),q=1,p,o=this,n,m
+var $async$zg=A.o(function(i,j){if(i===1){p=j
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.l(A.a96(a,b,c,d,e,f,g),$async$zg)
+return A.l(A.a96(a,b,c,d,e,f,g,h),$async$zg)
 case 6:q=1
 s=5
 break
 case 3:q=2
 m=p
 s=7
-return A.l(A.b0R(o.gacX(),A.L(["eventId",a,"eventType",b,"eventDate",c,"eventIndex",d,"username",o.f.a,"currentYear",f,"role",g],t.N,t.K),null,t.nf,t.T),$async$zg)
+return A.l(A.b0R(o.gacX(),A.L(["eventId",a,"eventType",b,"eventTime",c,"eventDate",d,"eventIndex",e,"username",o.f.a,"currentYear",g,"role",h],t.N,t.K),null,t.nf,t.T),$async$zg)
 case 7:s=5
 break
 case 2:s=1
@@ -100692,67 +100692,68 @@ case 1:return A.r(q,r)
 case 2:return A.q(o,r)}})
 return A.t($async$kk,r)},
 og(a,b,c,d,e){return this.axq(a,b,c,d,e)},
-axq(b0,b1,b2,b3,b4){var s=0,r=A.u(t.H),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9
-var $async$og=A.o(function(b5,b6){if(b5===1){p=b6
-s=q}while(true)switch(s){case 0:a1=J.R(b1)
-a2=a1.h(b1,"eventId")
-a3=a1.h(b1,"eventType")
-a4=b2+"-"+B.e.k(b3)
-a5=n.r.cX(0,$.jx(),t.Is)
-a6=a5.a
-a7=a5.x
+axq(b1,b2,b3,b4,b5){var s=0,r=A.u(t.H),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0
+var $async$og=A.o(function(b6,b7){if(b6===1){p=b7
+s=q}while(true)switch(s){case 0:a1=J.R(b2)
+a2=a1.h(b2,"eventId")
+a3=a1.h(b2,"eventType")
+a4=a1.h(b2,"time")
+a5=b3+"-"+B.e.k(b4)
+a6=n.r.cX(0,$.jx(),t.Is)
+a7=a6.a
+a8=a6.x
 a1=n.f
 e=t.N
 d=t.y
 c=A.fv(a1.x,e,d)
-c.n(0,a4,!0)
+c.n(0,a5,!0)
 n.scE(0,a1.a_m(c))
 q=3
 a1=$.a9
 b=(a1==null?$.a9=$.bc():a1).aZ("[DEFAULT]")
 A.aA(b,$.bL(),!0)
 a1=A.eK(new A.b4(b))
-m=A.hW(a1,a1.gck().el("RBGH-Calendar-"+b4)).dQ(b2)
+m=A.hW(a1,a1.gck().el("RBGH-Calendar-"+b5)).dQ(b3)
 s=6
 return A.l(J.P9(m),$async$og)
-case 6:l=b6
+case 6:l=b7
 s=l.gj1()?7:8
 break
 case 7:a=J.rL(l)
 k=a==null?t.P.a(a):a
 j=A.dV(t.j.a(J.ai(k,"events")),!0,t.z)
-i=J.ai(j,b3)
+i=J.ai(j,b4)
 s=i instanceof A.lq?9:10
 break
 case 9:s=11
 return A.l(J.P9(i),$async$og)
-case 11:h=b6
+case 11:h=b7
 s=h.gj1()?12:13
 break
 case 12:g=t.P.a(J.rL(h))
 s=J.ai(g,"responsible")!=null&&J.fD(J.ai(g,"responsible"))?14:16
 break
 case 14:s=17
-return A.l(n.tP(b0,i),$async$og)
-case 17:A.fr(b0,"Succesfully added to waitlist")
+return A.l(n.tP(b1,i),$async$og)
+case 17:A.fr(b1,"Succesfully added to waitlist")
 s=15
 break
 case 16:q=19
 s=22
-return A.l(n.zg(a2,a3,b2,b3,a6,b4,a7),$async$og)
+return A.l(n.zg(a2,a3,b3,a4,b4,a7,b5,a8),$async$og)
 case 22:a1=A.L(["responsible",n.f.a],t.K,t.X)
 c=i.a
 a1=A.vE(a1)
 a1.toString
 s=23
 return A.l(c.b5(0,a1),$async$og)
-case 23:A.fr(b0,"Successfully signed up")
+case 23:A.fr(b1,"Successfully signed up")
 q=3
 s=21
 break
 case 19:q=18
-a8=p
-A.fr(b0,"Failed to upload to backend")
+a9=p
+A.fr(b1,"Failed to upload to backend")
 s=21
 break
 case 18:s=3
@@ -100761,8 +100762,8 @@ case 21:case 15:case 13:case 10:case 8:o.push(5)
 s=4
 break
 case 3:q=2
-a9=p
-A.fr(b0,"An error occurred")
+b0=p
+A.fr(b1,"An error occurred")
 o.push(5)
 s=4
 break
@@ -100770,7 +100771,7 @@ case 2:o=[1]
 case 4:q=1
 a1=n.f
 f=A.fv(a1.x,e,d)
-J.e9(f,a4,!1)
+J.e9(f,a5,!1)
 n.scE(0,a1.a_m(f))
 s=o.pop()
 break
