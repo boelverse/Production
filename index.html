@@ -104,6 +104,19 @@
           document.body.style.background = "transparent";
         }
     </script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then((registration) => {
+              console.log('Custom Service Worker registered with scope:', registration.scope);
+            })
+            .catch((error) => {
+              console.error('Custom Service Worker registration failed:', error);
+            });
+        }
+    </script>
+
 </head>
 <body>
 <picture id="splash">
