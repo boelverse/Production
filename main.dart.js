@@ -33118,7 +33118,7 @@ while(true)switch(s){case 0:n=A
 m=A
 l=B.Q
 s=4
-return A.i($.Qz().aDV("assets/credentials.json"),$async$md)
+return A.i($.Qz().aDV("credentials.json"),$async$md)
 case 4:s=3
 return A.i(n.a9r(m.b2n(l.iJ(0,b,null),null),A.b([u.k],t.s)),$async$md)
 case 3:p=b
