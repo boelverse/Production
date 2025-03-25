@@ -107330,15 +107330,15 @@ $1(a){var s,r,q,p,o="activeAssignment",n=a.b,m=J.Q(n),l=m.h(n,"username")
 if(l==null)l="Unknown"
 s=m.h(n,"email")
 if(s==null)s="No Email"
-r=m.h(n,"phoneNumber")
-if(r==null)r="N/A"
+r=m.h(n,"phone")
+if(r==null)r="No Phone"
 q=m.h(n,"checkedInWhere")
 if(q==null)q="Unknown"
 p=m.h(n,o)
 if(p==null)p=!1
 n=m.h(n,"checkInStatus")
 if(n==null)n=!1
-return A.x(["id",a.a,"username",l,"email",s,"phoneNumber",r,"checkedInWhere",q,o,p,"checkInStatus",n],t.N,t.z)},
+return A.x(["id",a.a,"username",l,"email",s,"phone",r,"checkedInWhere",q,o,p,"checkInStatus",n],t.N,t.z)},
 $S:700}
 A.aHe.prototype={
 $1(a){return this.a6P(a)},
@@ -107451,19 +107451,19 @@ $1(a){var s=this,r=null,q=s.b,p=s.c,o=t.p,n=s.d,m=s.a,l=s.f
 return new A.u7(2,A.bm(A.b([A.cA(A.bm(A.b([new A.ax(B.fz,A.bz(r,r,B.l,r,r,new A.by(q.fr,r,r,A.b2(2),r,r,B.J),r,4,r,r,r,r,40),r),B.cJ,A.a9("Checked-In Users",r,r,r,r,A.aC(r,r,p,r,r,r,r,r,r,r,r,22,r,r,B.H,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),B.cJ],o),B.o,B.m,B.p),r,r),A.b3b(r,r,n,n,new A.c1(B.z,t.rc),r,A.b([A.b3a(A.a9("Red Bull Gaming Hub",r,r,r,r,A.aC(r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.ld,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)),A.b3a(A.a9("PXL Esports",r,r,r,r,A.aC(r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.ld,r,r,!0,r,r,r,r,r,r,r,r),r,r,r))],o),r),A.d3(A.b3c(A.b([m.Tz(s.e,p,l,q),m.Tz(s.r,p,l,q)],o),r),1)],o),B.aa,B.m,B.p),r)},
 $S:704}
 A.aH8.prototype={
-$2(a,b){var s,r,q,p,o=this,n=null,m="username",l=o.a[b],k=J.Q(l),j=k.h(l,"phoneNumber")
-if(j==null)j="N/A"
-s=k.h(l,"email")
+$2(a,b){var s,r,q,p,o=this,n=null,m="No Phone",l="username",k=o.a[b],j=J.Q(k),i=j.h(k,"phone")
+if(i==null)i=m
+s=j.h(k,"email")
 if(s==null)s="No Email"
 r=o.b
-q=k.h(l,m)
+q=j.h(k,l)
 q=q==null?n:J.a8(q,0)
 q=A.aUM(r.fr,A.a9(q==null?"":q,n,n,n,n,B.XN,n,n,n),n)
-k=k.h(l,m)
-if(k==null)k="Unknown User"
-k=A.a9(k,n,n,n,n,A.aC(n,n,o.c,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n)
-p=!J.d(j,"N/A")?j:s
-return A.dh(B.r,!0,n,A.f1(!1,n,!0,A.e7(q,n,A.a9(p,n,n,n,n,A.aC(n,n,o.d,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),k,n,n),n,!0,n,n,n,r.dx,n,n,n,n,n,n,n,new A.aH7(a,l),n,n,n,n),B.l,B.z,0,n,n,n,n,n,B.al)},
+j=j.h(k,l)
+if(j==null)j="Unknown User"
+j=A.a9(j,n,n,n,n,A.aC(n,n,o.c,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n)
+p=!J.d(i,m)?i:s
+return A.dh(B.r,!0,n,A.f1(!1,n,!0,A.e7(q,n,A.a9(p,n,n,n,n,A.aC(n,n,o.d,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),j,n,n),n,!0,n,n,n,r.dx,n,n,n,n,n,n,n,new A.aH7(a,k),n,n,n,n),B.l,B.z,0,n,n,n,n,n,B.al)},
 $S:705}
 A.aH7.prototype={
 $0(){var s=A.eM(new A.aH6(this.b),null,t.z)
