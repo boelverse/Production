@@ -110030,7 +110030,7 @@ s=6
 return A.h(o.lz(),$async$vt)
 case 6:n=e
 if(n==null){i=A.cd("User not authenticated")
-throw A.c(i)}k=A.cb("https://api.boelguard.me/api/update-waitlist",0,null)
+throw A.c(i)}k=A.cb("http://localhost:8081/api/update-waitlist",0,null)
 i=A.x(["Authorization","Bearer "+A.j(n),"Content-Type","application/json"],i,i)
 s=7
 return A.h(A.k5(k,B.K.hH(h,null),i),$async$vt)
