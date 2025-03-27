@@ -107164,9 +107164,9 @@ b=d.p2.r
 q=b==null?g:b.b
 if(q==null)q=B.k
 b=A.a9("Home",g,g,g,g,A.aC(g,g,q,g,g,g,g,g,g,g,g,18,g,g,B.H,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)
-p=A.eJ(g,A.bq(B.ln,r,g,g),g,new A.aHv(a0),g,g,g)
+p=f.y>0?new A.ax(B.l1,A.eJ(g,A.bq(B.ln,r,g,g),g,new A.aHv(a0),g,g,g),g):g
 o=t.p
-b=A.dh(B.r,!0,g,A.l5(A.b([new A.ax(B.fy,A.eJ(g,A.bq(B.fF,r,g,g),g,new A.aHw(a0),g,g,g),g)],o),a,!0,new A.ax(B.l1,p,g),0,b),B.l,g,1,g,d.k1,g,g,g,B.al)
+b=A.dh(B.r,!0,g,A.l5(A.b([new A.ax(B.fy,A.eJ(g,A.bq(B.fF,r,g,g),g,new A.aHw(a0),g,g,g),g)],o),a,!0,p,0,b),B.l,g,1,g,d.k1,g,g,g,B.al)
 p=A.a9("Welcome, "+f.c+"! ",g,g,g,g,A.aC(g,g,q,g,g,g,g,g,g,g,g,24,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)
 n=e.b
 p=A.b([A.cB(new A.ax(B.aH,A.bn(A.b([p,n?A.bq(B.ll,B.d2,g,g):A.bq(B.lk,B.bI,g,g)],o),B.o,B.br,B.p,g),g),g,g)],o)
@@ -107206,7 +107206,7 @@ a4=A.ex(new A.aQ(a3)).gdn()
 j=a4==null?null:a4.a.c.a.a
 i=A.c8("dd/MM/yyyy HH:mm:ss",null).bI(new A.aj(Date.now(),0,!1))
 if(a8)b0=l.d
-h=A.b([m.c,a9,i,k,J.dl(b0)],t.s)
+h=A.b([m.c,a9,i,k,J.dl(b0),m.f],t.s)
 s=7
 return A.h(n.gbt().cf(0,$.baQ().$1(h).gqL(),t.wF),$async$iI)
 case 7:g=b2
@@ -107504,18 +107504,18 @@ q.toString
 q=r-q>0.5
 r=q}else r=!0
 if(r){if(p.w>0)p.K(new A.aHE(p))}else p.x.n9(p.w,B.dh,B.aW).bV(new A.aHF(p),t.y)}},
-F(a){var s,r,q,p,o,n,m,l=this,k=null
-l.gbt().dz($.e2(),t.Y)
+F(a){var s,r,q,p,o,n,m,l=this,k=null,j=l.gbt().dz($.e2(),t.Y)
 l.gbt().dz($.CO(),t.Ro)
 s=A.I(a)
 r=s.fr
 q=s.ax.a===B.aj?B.ef:B.bR
 p=s.dy
-o=A.b2(50)
+if(j.y>0){o=A.b2(50)
 n=A.b2(50)
 m=l.w
 m=A.h8(k,new A.ax(B.K2,A.dh(B.r,!0,o,new A.ax(B.bo,A.b_4(n,new A.Fp(A.b([A.ak7(k,k,q,k,k,k,k,k,k,8,k,k,B.KU,k,k,k,k,k,k,k,k,k,k,B.fE,"Home",k,k,k),A.ak7(k,k,q,k,k,k,k,k,k,8,k,k,B.qe,k,k,k,k,k,k,k,k,k,k,B.fE,"Assignments",k,k,k),A.ak7(k,k,q,k,k,k,k,k,k,8,k,k,B.lj,k,k,k,k,k,k,k,k,k,k,B.fE,"Calendar",k,k,k)],t.Kh),m,new A.aHI(l),p,r,q,p,B.K7,k),B.bn),k),B.l,r,8,k,k,k,k,k,B.al),k),B.L,!1,k,k,k,k,l.gaqL(),k,l.gaqN(),k,k,k,k,k,k,k,k,k,k,k,k,k,k,k)
-return A.hI(k,k,A.b1O(A.b([new A.Fx(k),new A.Dk(k),new A.DP(k)],t.p),B.C,l.x,B.L,new A.aHJ(l),B.xd),m,k)}}
+o=m}else o=k
+return A.hI(k,k,A.b1O(A.b([new A.Fx(k),new A.Dk(k),new A.DP(k)],t.p),B.C,l.x,B.L,new A.aHJ(l),B.xd),o,k)}}
 A.aHD.prototype={
 $0(){var s=this.a
 s.y=!0
