@@ -33923,13 +33923,14 @@ if(p===s)return s
 if(a.charCodeAt(s)!==47)return q
 return b+3},
 bhf(){return B.L7},
-kY(a,b,c,d,e,f,g,h,i,j){return A.blY(a,b,c,d,e,f,g,h,i,j)},
-blY(a6,a7,a8,a9,b0,b1,b2,b3,b4,b5){var s=0,r=A.q(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5
-var $async$kY=A.l(function(b6,b7){if(b6===1){p=b7
+kY(a,b,c,d,e,f,g,h,i,j,k){return A.blY(a,b,c,d,e,f,g,h,i,j,k)},
+blY(a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6){var s=0,r=A.q(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5
+var $async$kY=A.l(function(b7,b8){if(b7===1){p=b8
 s=q}while(true)switch(s){case 0:q=3
-c=String(b1)
-b=a7==null?"":a7
-o=A.b([b5,b3,a6,a9,b4,b0,c,b,b2==null?"":b2],t.s)
+c=String(b2)
+b=a8==null?"":a8
+a=b3==null?"":b3
+o=A.b([b6,b4,a6,b0,b5,b1,c,b,a,a7],t.s)
 s=6
 return A.f($.b1t().zW(o),$async$kY)
 case 6:q=1
@@ -33944,45 +33945,45 @@ m=A.ce("yyyy",null).bO(new A.ah(Date.now(),0,!1))
 l=A.v1(u._)
 s=11
 return A.f(l.jY(u.j),$async$kY)
-case 11:k=b7
+case 11:k=b8
 j=k.pB("RBGH-Calendar-"+A.j(m))
 s=j==null?12:13
 break
 case 12:s=14
 return A.f(k.qs("RBGH-Calendar-"+A.j(m)),$async$kY)
-case 14:j=b7
+case 14:j=b8
 case 13:s=15
 return A.f(J.o2(j).qF(1,1),$async$kY)
-case 15:i=b7
-h=0,c=b5+" "+b4+" at "+a6+" for event "+a9,b=b2!=null,a0=a7!=null
+case 15:i=b8
+h=0,c=b6+" "+b5+" at "+a6+" for event "+b0,b=b3!=null,a=a8!=null
 case 16:if(!(h<J.bI(i))){s=18
-break}s=J.d(J.a2(i,h),a9)?19:20
+break}s=J.d(J.a2(i,h),b0)?19:20
 break
 case 19:a1=j
 a2=a1.y
 s=21
 return A.f((a2===$?a1.y=new A.l6(a1):a2).qF(1,1),$async$kY)
-case 21:g=b7
+case 21:g=b8
 f=0
 case 22:if(!(f<J.bI(g))){s=24
-break}s=J.d(J.a2(g,f),a9)?25:26
+break}s=J.d(J.a2(g,f),b0)?25:26
 break
 case 25:++h
-s=a0&&a7.length!==0?27:28
+s=a&&a8.length!==0?27:28
 break
 case 27:a1=j
 a2=a1.y
 if(a2===$)a2=a1.y=new A.l6(a1)
 s=29
-return A.f(a2.kv(a7,13,h),$async$kY)
-case 29:case 28:s=b&&b2.length!==0?30:31
+return A.f(a2.kv(a8,13,h),$async$kY)
+case 29:case 28:s=b&&b3.length!==0?30:31
 break
 case 30:a1=j
 a2=a1.y
 if(a2===$)a2=a1.y=new A.l6(a1)
 s=32
-return A.f(a2.kv(b2,14,h),$async$kY)
-case 32:case 31:e=b1?16:15
+return A.f(a2.kv(b3,14,h),$async$kY)
+case 32:case 31:e=b2?16:15
 a1=j
 a2=a1.y
 if(a2===$)a2=a1.y=new A.l6(a1)
@@ -106695,7 +106696,7 @@ qB(a){return this.aAn(a)},
 aAn(a0){var s=0,r=A.q(t.H),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$qB=A.l(function(a1,a2){if(a1===1){p=a2
 s=q}while(true)switch(s){case 0:f=n.Q
-e=f.c0(0,$.dZ(),t.Y).c
+e=f.c0(0,$.dZ(),t.Y)
 d=f.c0(0,$.b1X().gfP(),t.NQ)
 c=$.a1
 b=(c==null?$.a1=$.aV():c).aG("[DEFAULT]")
@@ -106717,10 +106718,11 @@ i=A.ke(A.y(["checkedInAt",l,"taskFinished",!1],t.K,t.X))
 i.toString
 s=6
 return A.f(h.a.b0(0,i),$async$qB)
-case 6:i=n.c
-i.toString
+case 6:i=e.c
+h=n.c
+h.toString
 s=7
-return A.f(A.kY(l,null,n.e,i,n.d,!1,null,n.f,"checked in",e),$async$qB)
+return A.f(A.kY(l,e.f,null,n.e,h,n.d,!1,null,n.f,"checked in",i),$async$qB)
 case 7:i=$.a1
 b=(i==null?$.a1=$.aV():i).aG("[DEFAULT]")
 A.al(b,c,!0)
@@ -108737,68 +108739,71 @@ A.al(m,n,!0)
 return new A.RP(s,A.a0(new A.ah(r,0,!1)),q,A.cx(A.iU(new A.aP(m)).gih().hY("devices/")))}}
 A.RP.prototype={
 np(a,b,c){return this.aAo(a,b,c)},
-aAo(a5,a6,a7){var s=0,r=A.q(t.H),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4
-var $async$np=A.l(function(a8,a9){if(a8===1){p=a9
+aAo(a6,a7,a8){var s=0,r=A.q(t.H),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5
+var $async$np=A.l(function(a9,b0){if(a9===1){p=b0
 s=q}while(true)switch(s){case 0:n.M(new A.ac1(n))
-m=n.gbP().c0(0,$.dZ(),t.Y).c
+m=n.gbP().c0(0,$.dZ(),t.Y)
+l=m.c
 q=3
-l=A.ce("dd/MM/yyyy HH:mm:ss",null).bO(new A.ah(Date.now(),0,!1))
-b=n.a
-a=b.r
-a0=b.e
-a0.toString
+k=A.ce("dd/MM/yyyy HH:mm:ss",null).bO(new A.ah(Date.now(),0,!1))
+a=n.a
+a0=a.r
+a1=a.e
+a1.toString
+a2=a.f
+a=a.w
 s=6
-return A.f(A.kY(l,a6,b.f,a0,b.w,!0,a7,a,"checked out",m),$async$np)
-case 6:a=$.a1
-a1=(a==null?$.a1=$.aV():a).aG("[DEFAULT]")
-b=$.bv()
-A.al(a1,b,!0)
-a=A.dI(new A.aP(a1))
-a=A.fc(a,a.gc5().dg("RBGH-Assignments-"+n.y)).d1(n.a.d)
-a0=t.X
-a2=A.ke(A.y(["checkedOutAt",l,"taskFinished",!0],t.K,a0))
+return A.f(A.kY(k,m.f,a7,a2,a1,a,!0,a8,a0,"checked out",l),$async$np)
+case 6:a0=$.a1
+a3=(a0==null?$.a1=$.aV():a0).aG("[DEFAULT]")
+a=$.bv()
+A.al(a3,a,!0)
+a0=A.dI(new A.aP(a3))
+a0=A.fc(a0,a0.gc5().dg("RBGH-Assignments-"+n.y)).d1(n.a.d)
+a1=t.X
+a2=A.ke(A.y(["checkedOutAt",k,"taskFinished",!0],t.K,a1))
 a2.toString
 s=7
-return A.f(a.a.b0(0,a2),$async$np)
+return A.f(a0.a.b0(0,a2),$async$np)
 case 7:a2=$.a1
-a1=(a2==null?$.a1=$.aV():a2).aG("[DEFAULT]")
-A.al(a1,b,!0)
+a3=(a2==null?$.a1=$.aV():a2).aG("[DEFAULT]")
+A.al(a3,a,!0)
 s=8
-return A.f(A.cx(A.cx(A.cx(A.iU(new A.aP(a1)).gih().hY(null)).c.ds("users")).c.ds(a5)).c.b0(0,A.y(["checkInStatus",!1,"checkedInWhere",null,"activeAssignment",!1],t.N,a0)),$async$np)
+return A.f(A.cx(A.cx(A.cx(A.iU(new A.aP(a3)).gih().hY(null)).c.ds("users")).c.ds(a6)).c.b0(0,A.y(["checkInStatus",!1,"checkedInWhere",null,"activeAssignment",!1],t.N,a1)),$async$np)
 case 8:s=9
 return A.f(A.fL(),$async$np)
-case 9:k=a9
-j="cachedAssignments_"+A.j(m)
-i="cachedFinishedAssignments_"+A.j(m)
-h=A.ar(J.a2(k.a,j))
-g=h!=null?B.J.cU(0,h):[]
-f=J.aY_(g,new A.ac2(n),new A.ac3())
-s=f!=null?10:12
+case 9:j=b0
+i="cachedAssignments_"+A.j(l)
+h="cachedFinishedAssignments_"+A.j(l)
+g=A.ar(J.a2(j.a,i))
+f=g!=null?B.J.cU(0,g):[]
+e=J.aY_(f,new A.ac2(n),new A.ac3())
+s=e!=null?10:12
 break
-case 10:J.dn(f,"taskFinished",!0)
-J.dn(f,"checkedOutAt",l)
-J.mF(g,f)
-if(!J.mD(g,f))A.aZ("Current assignment removed from cached assignments.")
+case 10:J.dn(e,"taskFinished",!0)
+J.dn(e,"checkedOutAt",k)
+J.mF(f,e)
+if(!J.mD(f,e))A.aZ("Current assignment removed from cached assignments.")
 s=13
-return A.f(k.dW("String",j,B.J.h4(g)),$async$np)
-case 13:e=A.ar(J.a2(k.a,i))
-d=e!=null?B.J.cU(0,e):[]
-J.e_(d,f)
+return A.f(j.dW("String",i,B.J.h4(f)),$async$np)
+case 13:d=A.ar(J.a2(j.a,h))
+c=d!=null?B.J.cU(0,d):[]
+J.e_(c,e)
 s=14
-return A.f(k.dW("String",i,B.J.h4(d)),$async$np)
+return A.f(j.dW("String",h,B.J.h4(c)),$async$np)
 case 14:s=11
 break
 case 12:A.aZ("Current assignment not found in cached assignments.")
-case 11:b=n.c
-b.toString
-A.bV(b,!1).a6p(A.eR(new A.ac4(),null,t.z))
+case 11:a=n.c
+a.toString
+A.bV(a,!1).a6p(A.eR(new A.ac4(),null,t.z))
 o.push(5)
 s=4
 break
 case 3:q=2
-a4=p
-c=A.P(a4)
-A.aZ("Error during checkout: "+A.j(c))
+a5=p
+b=A.P(a5)
+A.aZ("Error during checkout: "+A.j(b))
 o.push(5)
 s=4
 break
