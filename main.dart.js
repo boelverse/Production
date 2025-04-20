@@ -113291,7 +113291,7 @@ case 3:l=d
 if(l==null)throw A.c(A.c7("User not authenticated"))
 o=t.N
 n=A.z(["rowData",a,"customMessage",b],o,t.z)
-m=A.ca("http://localhost:8081/api/log-user-presence",0,null)
+m=A.ca("https://api.boelguard.me/api/log-user-presence",0,null)
 o=A.z(["Authorization","Bearer "+l,"Content-Type","application/json"],o,o)
 s=4
 return A.f(A.lq(m,B.P.hN(n,null),o),$async$v6)
@@ -113356,7 +113356,7 @@ s=6
 return A.f(o.lD(),$async$vE)
 case 6:n=e
 if(n==null){i=A.c7("User not authenticated")
-throw A.c(i)}k=A.ca("http://localhost:8081/api/update-waitlist",0,null)
+throw A.c(i)}k=A.ca("https://api.boelguard.me/api/update-waitlist",0,null)
 i=A.z(["Authorization","Bearer "+A.j(n),"Content-Type","application/json"],i,i)
 s=7
 return A.f(A.lq(k,B.P.hN(h,null),i),$async$vE)
