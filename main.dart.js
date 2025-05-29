@@ -32489,9 +32489,9 @@ aVd:function aVd(a){this.a=a},
 aV3:function aV3(){},
 aVe:function aVe(a,b){this.a=a
 this.b=b},
+aV2:function aV2(){},
 aVf:function aVf(a,b){this.a=a
 this.b=b},
-aV2:function aV2(){},
 aVg:function aVg(a,b){this.a=a
 this.b=b},
 aV1:function aV1(a){this.a=a},
@@ -114447,8 +114447,8 @@ j=A.bl(b,A.b0(e,B.m,B.k,B.o,B.q),B.n,b,b,new A.bo(s,b,b,j,f,b,B.C),b,b,b,B.aj,b,
 f=A.b1(A.a([B.an,A.U("Developer Settings",b,b,b,b,A.aa(b,b,n,b,b,b,b,b,b,b,b,14,b,b,B.r,b,b,!0,b,b,b,b,b,b,b,b),b,b,b)],l),B.m,B.k,B.o,b)
 e=A.ad(12)
 g=A.a([new A.bG(1,B.P,A.M(51,i,h,q),B.cA,12)],g)
-q=A.a([A.du(b,b,new A.aVc(c,a3),b,B.a5v,b,A.U(c.z,b,b,b,b,b,b,b,b)),A.dR(r,b,b),A.du(b,A.mx(A.aP(B.Mn,n,b,b),"Bug report"),new A.aVd(a3),b,B.a6n,b,A.aP(B.bw,n,b,b)),A.dR(r,b,b),A.du(b,A.mx(A.aP(B.r_,n,b,b),"Add or Deduct points from a user"),new A.aVe(c,a3),b,B.a5Y,b,A.aP(B.bw,n,b,b))],l)
-if(a.z==="DEV")B.b.L(q,A.a([A.dR(r,b,b),A.du(b,A.mx(A.aP(B.MP,n,b,b),"Upload image to backend"),new A.aVf(c,a3),b,B.a5G,b,A.aP(B.bw,n,b,b))],l))
+q=A.a([A.du(b,b,new A.aVc(c,a3),b,B.a5v,b,A.U(c.z,b,b,b,b,b,b,b,b)),A.dR(r,b,b),A.du(b,A.mx(A.aP(B.Mn,n,b,b),"Bug report"),new A.aVd(a3),b,B.a6n,b,A.aP(B.bw,n,b,b))],l)
+if(a.z==="DEV")B.b.L(q,A.a([A.dR(r,b,b),A.du(b,A.mx(A.aP(B.MP,n,b,b),"Upload image to backend"),new A.aVe(c,a3),b,B.a5G,b,A.aP(B.bw,n,b,b)),A.dR(r,b,b),A.du(b,A.mx(A.aP(B.r_,n,b,b),"Add or Deduct points from a user"),new A.aVf(c,a3),b,B.a5Y,b,A.aP(B.bw,n,b,b))],l))
 if(d===5)B.b.L(q,A.a([A.dR(r,b,b),A.du(b,A.mx(A.aP(B.Mu,n,b,b),"Sends the logs to discord."),new A.aVg(c,a3),b,B.a69,b,A.aP(B.bw,n,b,b)),A.dR(r,b,b),A.du(b,A.mx(A.aP(B.r_,n,b,b),"Sync data with database/excel"),new A.aVh(c,a3,a0),b,B.a5K,b,A.aP(B.bw,n,b,b)),A.dR(r,b,b),A.du(b,A.mx(A.aP(B.iX,n,b,b),"Create firebase and excel database."),new A.aVi(c,a3),b,B.a5z,b,A.aP(B.bw,n,b,b))],l))
 q=A.bl(b,A.b0(q,B.m,B.k,B.o,B.q),B.n,b,b,new A.bo(s,b,b,e,g,b,B.C),b,b,b,B.aj,b,b,b)
 i=A.cV(b,b,n,b,b,b,4,b,b,b,b,b,B.fP,b,new A.aU(A.ad(12),B.f),b,b,b,b)
@@ -114512,10 +114512,6 @@ A.aV3.prototype={
 $1(a){return B.Gy},
 $S:804}
 A.aVe.prototype={
-$0(){var s=this.a
-s.axi(this.b,s.gbd())},
-$S:0}
-A.aVf.prototype={
 $0(){var s=0,r=A.n(t.H),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e
 var $async$$0=A.j(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:s=3
@@ -114558,6 +114554,10 @@ $S:2}
 A.aV2.prototype={
 $1(a){return A.b5x(a)},
 $S:12}
+A.aVf.prototype={
+$0(){var s=this.a
+s.axi(this.b,s.gbd())},
+$S:0}
 A.aVg.prototype={
 $0(){A.lz(this.b,new A.aV1(this.a))},
 $S:0}
