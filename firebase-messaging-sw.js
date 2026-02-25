@@ -6,10 +6,10 @@ self.addEventListener("activate", (e) => e.waitUntil(self.clients.claim()));
 
 // Import Firebase compat SDKs
 importScripts(
-  "https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js",
+  "https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"
 );
 importScripts(
-  "https://www.gstatic.com/firebasejs/9.22.1/firebase-messaging-compat.js",
+  "https://www.gstatic.com/firebasejs/9.22.1/firebase-messaging-compat.js"
 );
 
 // Same config as in your app / sw.js
@@ -41,6 +41,7 @@ function getBody(payload) {
 self.addEventListener("notificationclose", (event) => {
   const tag = event.notification.tag;
   const type = event.notification?.data?.type || null;
+  console.log("[FMSW] Notification closed:", { tag, type });
 });
 
 async function maybeShowByTag(payload) {
@@ -74,12 +75,17 @@ async function maybeShowByTag(payload) {
 try {
   if (!firebase?.apps?.length) {
     firebase.initializeApp(firebaseConfig);
+    console.log("[FMSW] Firebase app initialized");
+  } else {
+    console.log("[FMSW] Firebase app already initialized");
   }
 
   const messaging = firebase.messaging?.();
   if (!messaging) {
     console.warn("[FMSW] Firebase messaging unavailable (compat API missing)");
   } else {
+    console.log("[FMSW] Firebase Messaging initialized");
+
     messaging.onBackgroundMessage(async (payload) => {
       try {
         await maybeShowByTag(payload);
